@@ -22,7 +22,7 @@ class App extends React.Component {
 
     this.state = {
       image: null,
-      fontSize: 40,
+      fontSize: 24,
       points: [],
       counter: 0,
     };
@@ -155,7 +155,6 @@ class App extends React.Component {
       </div>
       <div className="status-bar">
         <span>Edit image for adding number by Chen Guangqi (Copyright © 2019).</span>
-        
       </div>
     </div>
     );
