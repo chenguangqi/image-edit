@@ -2,6 +2,7 @@
   "name": "image-edit",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://172.28.197.52/apps/image-edit",
   "dependencies": {
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
