@@ -17,7 +17,6 @@ class App extends React.Component {
     // this.image = null;
     this.setCanvasRef = (element) => {
       this.canvas = element;
-
     };
 
     this.state = {
