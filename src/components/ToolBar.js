@@ -13,7 +13,7 @@ function ToolBar(props) {
             </div>
             <div>
                 <label htmlFor="font-size">字体大小: </label>
-                <input type="number" style={{width: '48px'}} name="font-size" value={props.fontSize} onChange={props.changeFontSize} />
+                <input type="number" style={{width: '48px'}} name="font-size" min="1" max="1024" value={props.fontSize} onChange={props.changeFontSize} />
             </div>
             <button onClick={props.undoImage}>撤销</button>
         </div>
